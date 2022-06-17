@@ -61,11 +61,6 @@ class ConfigAPI:
          'Safari/537.36'),  # chrome
     ]
 
-    # http_proxy_file = 'http_proxylist'
-    # https_proxy_file = 'https_proxylist'
-    # http_proxy_addresses = []
-    # https_proxy_addresses = []
-
     def __init__(self, args):
         self.export_report = None
         self.report = None
@@ -111,10 +106,6 @@ class ConfigAPI:
             print('[!]', end=' ')
             print(*args)
 
-    # def setup_proxy(self):
-    #     with open(self.http_proxy_file, 'r') as http_file, open(self.https_proxy_file, 'r') as https_file:
-    #         self.http_proxy_addresses.extend(http_file.read().split('\n'))
-    #         self.https_proxy_addresses.extend(https_file.read().split('\n'))
 
     def setup_api_key(self, api_key=None):
 
