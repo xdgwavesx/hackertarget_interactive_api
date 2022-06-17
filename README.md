@@ -38,7 +38,5 @@ usage: main.py [-h]
 
 
 ## Screenshots
- 
- <hr>
     
 ![hackertarget](hackertarget_api.png?raw=true "HackerTarget Interactive API"):
